@@ -1,0 +1,204 @@
+/* ====================================================== Common start ====================================================== */
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.btn_common{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    line-height: 19px;
+    background-color: #21B573;
+    border: none;
+    border-radius: 33px;
+}
+.btn_common:hover{
+    color: #ffffff;
+    background-color: #FD511A;
+}
+.c_title{}
+.c_title h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+/* ====================================================== Common end======================================================  */
+
+/* ====================================================== Header start ====================================================== */
+header{
+    background-color: #F0FFF0;
+}
+.cnav{}
+.logo{
+    max-width: 200px;
+}
+.menu{}
+.menu ul li a{
+    padding: 0 20px !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: black !important;
+    line-height: 24px;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+.btnh{
+    margin-left: 10px;
+    width: 104px;
+    height: 45px;
+}
+/* ====================================================== Header end ====================================================== */
+
+/* ====================================================== Banner start ====================================================== */
+.banner{
+    background-color: #F0FFF0;
+    padding: 60px 0;
+}
+.b_text{}
+.b_text1{
+    color: #FD511A;
+    line-height: 24px;
+}
+.b_h1{
+    margin: 10px 0 20px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 70px;
+}
+.b_h1 span{
+    color: #21B573;
+}
+.b_text2{}
+.b_link{
+    margin-top: 20px;
+    width: 155px;
+    height: 45px;
+    padding: 14px 35px !important;
+    border: 0.2px solid black;
+}
+.b_img{}
+.b_img img{}
+/* ====================================================== Banner end ====================================================== */
+
+/* ====================================================== Feature Start ====================================================== */
+.feature{
+    padding: 20px 0 100px;
+}
+.s_feature{
+    margin-top: 24px;
+    padding: 55px 0 50px;
+    background-color: #F0FFF0;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.s_feature:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f_img{}
+.f_img img{}
+.s_feature h2{
+    margin: 20px 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.s_feature p{
+    line-height: 24px;
+}
+/* ====================================================== Feature End ====================================================== */
+/* ====================================================== Courses Start ====================================================== */
+.course{
+    padding: 50px 0 100px;
+}
+.s_course{
+    margin-top: 50px;
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.c_img{
+    border-radius: 12px;
+}
+.s_course h2{
+    margin: 18px 0 5px;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 36px;
+}
+.s_course p{
+    line-height: 24px;
+}
+.btn_course{
+    margin: 18px 0 35px;
+    padding: 8px 27px;
+    width: 135px;
+    height: 35px;
+}
+.c_footer{}
+.left{}
+.right{}
+.mr_c{
+    margin-right: 6px !important;
+}
+.left ul li img, .right ul li img{}
+.left ul li span, .right ul li span{
+    font-weight: 500;
+    line-height: 24px;
+}
+/* ====================================================== Courses End ====================================================== */
+/* ====================================================== Testimony Start ====================================================== */
+.testimony{
+    padding: 20px 0 100px;
+}
+.author{
+    justify-items: center;
+}
+.author img{
+    max-width: 120px;
+}
+.statement{
+    padding-top: 11px;
+}
+.statement p{
+    line-height: 30px;
+}
+.author, .statement{
+    margin-top: 50px;
+}
+/* ====================================================== Testimony End ====================================================== */
+/* ====================================================== Footer Start ====================================================== */
+footer{
+    padding-top: 55px;
+    background-color: #282531;
+}
+.footer_text{}
+.footer_text p{
+    color: white;
+    line-height: 30px;
+}
+.f_2{
+    color: white;
+}
+.f_2 p{
+    line-height: 30px;
+}
+.f_2 p:first-child{
+    font-weight: 700;
+}
+.f_2 p a{
+    color: white;
+    text-decoration: none;
+}
+.f_2 p a:hover{
+    color: #FD511A;
+}
+.copyright{
+    margin: 76px 0 27px;
+    color: #CDCDCD;
+}
+/* ====================================================== Footer End ====================================================== */
