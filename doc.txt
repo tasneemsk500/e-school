@@ -1,0 +1,89 @@
+figma to html
+	file
+	link
+
+asset
+	img
+	logo
+	font
+	icon
+
+section define - 6
+layout ** - will do this using container for now
+
+
+
+code commenting
+semantic mark up
+reusable block
+css code hierarchy maintenance
+
+
+
+seo optimizing code -	
+	speed:
+		minified size as much as possible
+	search:
+		use h1 to h6
+		p
+		em
+		strong
+		use img name, alt attribute
+		meta
+
+Validation check
+
+
+Must check the artboard width of the figma design
+
+
+Look out for the common items
+	<!-- font family - Rubik
+	font weight - 700 --> Let's ignore this
+
+- font :
+		.poppins-regular {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 400;
+		  font-style: normal;
+		}
+
+		.poppins-medium {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 500;
+		  font-style: normal;
+		}
+
+		.poppins-bold {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 700;
+		  font-style: normal;
+		}
+
+		
+		.roboto-<uniquifier> {
+		  font-family: "Roboto", sans-serif;
+		  font-optical-sizing: auto;
+		  font-weight: 400;
+		  font-style: normal;
+		  font-variation-settings:"wdth" 100;
+		}
+
+
+- button:
+	font family - Roboto	
+	font size - 16px
+	font weight - 400
+	hover, text (same)
+	width, height (different)
+
+- font colour:
+	green #218573
+	black #000000
+	orange #FD511A
+	white #ffffff
+
+
+banner
+		xxl-lx-lg		md		sm-col
+h1		48-44			
